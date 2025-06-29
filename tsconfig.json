@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.tsbuildinfo",
+    "baseUrl": "src",
+    "target": "ES2022",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "sourceMap": true,
+    
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+    
+    /* Linting */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitOverride": true,   
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "useDefineForClassFields": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedSideEffectImports": true,
+    "types": ["vite/client"],
+
+    /* Paths */
+    "paths": {
+      // "@assets/*": ["assets/*"],
+      // "@components/*": ["components/*"],
+      // "@interfaces/*": ["interfaces/*"],
+      // "@interfaces-generated/*": ["interfaces-generated/*"],
+      // "@modules/*": ["modules/*"],
+      // "@pages/*": ["pages/*"],
+      // "@store/*": ["store/*"],
+      // "@utils/*": ["utils/*"]
+    },
+  },
+
+  "exclude": ["node_modules", "dist"],
+  "include": ["vite.config.ts", "eslint.config.js", "src",]
+}
