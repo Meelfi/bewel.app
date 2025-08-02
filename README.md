@@ -1,4 +1,4 @@
-# Bewel.app
+# bewel.app
 
 **License: Proprietary (All Rights Reserved)**
 
@@ -18,16 +18,15 @@
 
 ## About The Project
 
-This project is a full-stack application designed to help users craft a unique digital identity. It provides a single, fully customizable profile page where users can showcase their bio, social links, favorite music, and upcoming events. Built to offer complete creative freedom beyond typical 'link-in-bio' services, it allows every user to design a page that truly reflects their personal brand.
+This project is a full-stack application designed to help users craft a unique digital identity. It provides a single, fully customizable profile page where users can showcase their bio, social links and favorite music. Built to offer complete creative freedom beyond typical 'link-in-bio' services, it allows every user to design a page that truly reflects their personal brand.
 
 The application leverages a modern, sophisticated technology stack, with a clear separation of concerns to ensure performance, scalability, and a great developer experience.
 
 ## Key Features
 
--   **Full Profile Customization:** Display personal bio, age, height, and other stats.
+-   **Full Profile Customization:** Display personal bio.
 -   **Link Aggregation:** Consolidate all your social media, portfolios, and other important links.
 -   **Music Showcase:** Share your favorite tracks or playlists with your visitors.
--   **Event Calendar:** Announce your participation in upcoming events, streams, or meetings.
 -   **Deep Styling Engine:** Complete control over the page's visual appearance, including colors, fonts, and layouts.
 
 ## Tech Stack
@@ -55,7 +54,7 @@ A detailed breakdown of the technologies used to build this application.
 #### **Infrastructure**
 -   **Server:** Linux
 -   **Reverse Proxy:** Nginx
--   **Process Manager:** PM2
+-   **Container Application Development:** Docker 
 
 ## Installation and Setup
 
