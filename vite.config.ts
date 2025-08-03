@@ -1,5 +1,6 @@
 import react from '@vitejs/plugin-react';
 
+import linaria from '@wyw-in-js/vite';
 import { defineConfig } from 'vite';
 import checker from 'vite-plugin-checker';
 import tsconfigPaths from 'vite-tsconfig-paths';
@@ -14,6 +15,12 @@ export default defineConfig({
         lintCommand: 'eslint .',
       },
       typescript: true,
+    }),
+    linaria({
+      include: ['**/*.{ts,tsx}'],
+      babelOptions: {
+        presets: ['@babel/preset-typescript', '@babel/preset-react'],
+      },
     }),
     react(),
     tsconfigPaths(),

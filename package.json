@@ -11,16 +11,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@babel/core": "^7.28.0",
+    "@linaria/atomic": "^6.3.0",
+    "@linaria/core": "^6.3.0",
+    "@linaria/react": "^6.3.0",
+    "@wyw-in-js/babel-preset": "^0.7.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router": "^7.7.1"
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@babel/preset-typescript": "^7.27.1",
     "@eslint/js": "^9.32.0",
     "@types/react": "^19.1.9",
     "@types/react-dom": "^19.1.7",
     "@typescript-eslint/parser": "^8.38.0",
     "@vitejs/plugin-react": "^4.7.0",
+    "@wyw-in-js/vite": "^0.7.0",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",

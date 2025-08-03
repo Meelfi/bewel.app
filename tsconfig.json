@@ -14,6 +14,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "verbatimModuleSyntax": true,
+    "esModuleInterop": true,
     "moduleDetection": "force",
     "noEmit": true,
     "jsx": "react-jsx",
@@ -32,8 +33,9 @@
 
     /* Paths */
     "paths": {
+      "@components/*": ["components/*"],
+      "@hooks/*": ["hooks/*"],
       // "@assets/*": ["assets/*"],
-      // "@components/*": ["components/*"],
       // "@interfaces/*": ["interfaces/*"],
       // "@interfaces-generated/*": ["interfaces-generated/*"],
       // "@modules/*": ["modules/*"],
